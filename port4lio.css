@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: azure;
+    width: 100%;
+    height: 80px;
+}
+
+header div{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+header div span{
+    line-height: 60px;
+    font-size: 30px;
+    font-family: elephant;
+    color: chartreuse;
+    width: 15%;
+}
+
+header div a{
+    text-decoration: none;
+    /* line-height: 60px; */
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+header div a:hover{
+   border-top: 3px solid green;
+   border-bottom: 3px solid green;
+}
+
+.main{
+    height: 450px;
+    width: 100%;
+}
+.main-first{
+    height: 98%;
+    width: 52%;
+    padding-left: 40px;
+    float: left;
+}
+
+.main-first h1{
+    font-size: 40px;
+    font-family: arial;
+    color: black;
+}
+
+.main-first  p{
+    font-size: 30px;
+    word-spacing: 8px;
+    color:darkslategray
+}
+
+.main-first button{
+    border: none;
+    background-color:indigo;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-left: 35px;
+}
+
+.main-first button:hover{
+    background-color: deepskyblue;
+}
+
+.main-first button a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-first button a:hover{
+    color: indigo;
+}
+.main-second{
+    height: 98%;
+    width: 43%;
+    margin-left: 10px;
+    float: left;
+}
+.main-second img{
+    height: 500px;
+    width: 100%;
+}
+
+
+.main1{
+    height: 450px;
+    width: 100%;
+    margin: 10px auto;
+}
+.main1-first{
+    height: 98%;
+    width: 45%;
+    float: left;
+}
+
+.main1-first img{
+    padding-top: 50px;
+}
+.main1-second{
+    height: 98%;
+    width: 52%;
+    margin-left: 15px;
+    margin-top: 80px;
+    float: left;
+}
+
+.main1-second h1{
+    font-size: 40px;
+    font-family: arial;
+}
+
+.main1-second p{
+    font-size: 25px;
+    word-spacing: 8px;
+    color:mediumslateblue;
+}
+
+.main1-second ul li{
+    font-size: 25px;
+    word-spacing: 8px;
+    color:mediumslateblue;
+}
+
+.main2{
+    height: 450px;
+    width: 100%;
+}
+
+.main2-first{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.main2-first h1{
+    color: black;
+    font-size: 35px;
+    margin-left: 60px;
+    margin-top: 7%;
+    font-family: arial;
+}
+.main2-second{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.main3{
+    height: 450px;
+    width: 100%;
+    color: antiquewhite;
+}
+
+.main3 h1{
+    font-family: arial;
+    font-size: 40px;
+    color: darkolivegreen;
+    margin-left: 7%;
+}
+
+.main3-first{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: burlywood;
+}
+
+.main3-first-one{
+    height: 40%;
+    width: 90%;
+    float: left;
+    margin: 30px;
+    background-color: white;
+}
+
+.main3-first-one p{
+    color: black;
+    font-size: 25px;
+    margin-left: 25%;
+}
+.main3-first-one h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 15%;
+}
+.main3-first-two{
+    height: 40%;
+    width: 90%;
+    float: left;
+    margin: 30px;
+    margin-top: 12px;
+    background-color: white;
+}
+.main3-first-two p{
+    color: black;
+    font-size: 25px;
+    margin-left: 25%;
+}
+.main3-first-two h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 15%;
+}
+.main3-second{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color:burlywood;
+}
+
+.main3-second p{
+    color: black;
+    font-size: 25px;
+    margin-left: 35%;
+}
+
+
+.main3-second-one{
+    height: 40%;
+    width: 90%;
+    float: left;
+    margin: 30px;
+    background-color: white;
+}
+
+.main3-second-two p{
+    color: black;
+    font-size: 25px;
+    margin-left: 35%;
+}
+
+.main3-second-two{
+    height: 40%;
+    width: 90%;
+    float: left;
+    margin: 30px;
+    margin-top: 12px;
+    background-color: white;
+}
+
+
+.main3 button{
+    border: none;
+    background-color:indigo;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.main3 button:hover{
+    background-color: darkcyan;
+}
+.main3 button a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+section h1{
+    font-family: arial;
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+.main4{
+    height: 300px;
+    width: 100%;
+    margin: 10px auto;
+}
+.main4-first{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+.main4-second{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+.main4-third{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+/* Footer section start */
+
+footer{
+    background-color:blanchedalmond;
+    height: 500px;
+    width: 100%;
+}
+
+footer h1{
+    margin-left: 5%;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumblue;
+}
+footer h2{
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: Arial;
+    color: cornflowerblue;
+}
